@@ -1,0 +1,274 @@
+/* Document */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  color: white;
+}
+
+/* DAT GUI */
+
+#dat-gui {
+  position: absolute;
+  right: 0px;
+  z-index: 5;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "Minecraft-Regular";
+  src: url(/https://wabawaba.org/Minecraft-Regular.otf);
+  font-display: fallback;
+}
+
+/* LOADING SCREEN */
+
+#loading-screen-text {
+  color: white;
+  font-family: "Minecraft-Regular";
+}
+
+/* Main menu background image */
+
+.background-image {
+  filter: brightness(30%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://wabawaba.org/dirtblockformenu.png) center center repeat;
+  background-size: 128px;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 200, 200, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 200, 200, 0.7);
+}
+
+/* CHAT INPUT */
+
+#chat-input {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  height: 35px;
+  width: calc(100% - 10px);
+  z-index: 2;
+  border: none;
+  font-family: url(https://blockcraft.online/Minecraft-Regular.otf);
+  font-size: 25px;
+  padding-left: 5px;
+  text-decoration: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+#chat-input::placeholder {
+  color: white;
+}
+
+/* SEARCH INPUT */
+
+#search-input {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  height: 35px;
+  width: calc(100% - 10px);
+  z-index: 2;
+  border: none;
+  font-family: url(https://blockcraft.online/Minecraft-Regular.otf);
+  font-size: 25px;
+  padding-left: 5px;
+  text-decoration: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+#search-input::placeholder {
+  color: grey;
+}
+
+/* Canvas HUD */
+
+#canvas-hud {
+  position: absolute;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  pointer-events: none;
+}
+
+#hud-canvas {
+  position: absolute;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+input,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
