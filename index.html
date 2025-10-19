@@ -1,68 +1,39 @@
-        <title>WabaCraft</title>
+<!doctype html>
+<html lang="en">
+        <title>BlockCraft</title>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width,user-scalable=yes,minimum-scale=1,maximum-scale=1"/>
-        <meta name="description" content="Wabacraft is a free to play alternative to Minecraft in the browser implemented in Typescript and WebGL. Features of the game include multiplayer PvP, hundreds of blocks to build with, crafting and much more!"/>
+        <meta name="description" content="BlockCraft is a free to play alternative to Minecraft in the browser implemented in Typescript and WebGL. Features of the game include multiplayer PvP, hundreds of blocks to build with, crafting and much more!"/>
         <meta name="theme-color" content="#317EFB"/>
-        <meta name="keywords" content="Three.js, Minecraft, Free, BlockCraft, Block, Craft, Wabacraft, Waba"/>
-        <meta name="author" content="Victor Wei, qhyun. Vincent"/>
+        <meta name="keywords" content="Three.js, Minecraft, Free, BlockCraft, Block, Craft"/>
+        <meta name="author" content="Victor Wei, qhyun"/>
         <meta property="og:title" content="BlockCraft"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://wabawaba.org/"/>
-        <meta property="og:image" content="https://wabawaba.org/images/content.png"/>
+        <meta property="og:url" content="https://blockcraft.online/"/>
+        <meta property="og:image" content="https://blockcraft.online/images/content.png"/>
         <meta property="og:description" content="BlockCraft is a free to play alternative to Minecraft in the browser implemented in Typescript and WebGL. Features of the game include multiplayer PvP, hundreds of blocks to build with, crafting and much more!"/>
         <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate"/>
         <meta http-equiv="expires" content="0"/>
         <meta http-equiv="Pragma" content="no-cache"/>
-        <meta http-equiv="origin-trial" content="AlajIPUgS3qj2fdLwYquUBKSjuycj37m8cCFobQ92RiW6wLcIfmbMw9Daby76nswopzP/U7+VLdZeDeJxxcaOAEAAAB7eyJvcmlnaW4iOiJodHRwczovL2Jsb2NrY3JhZnQub25saW5lOjQ0MyIsImZlYXR1cmUiOiJVbnJlc3RyaWN0ZWRTaGFyZWRBcnJheUJ1ZmZlciIsImV4cGlyeSI6MTY2NjEzNzU5OSwiaXNTdWJkb21haW4iOnRydWV9">
-        <link rel="preconnect" href="https://www.google.com/">
-        <link rel="preconnect" href="https://www.gstatic.com/" crossorigin>
-        <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lezt2AfAAAAABmGOg_umDllDyzBBkDcV3PwAN-o"></script>
-        <script>
-            window.aiptag = window.aiptag || {};
-            aiptag.cmd = aiptag.cmd || [];
-            aiptag.cmd.display = aiptag.cmd.display || [];
-            aiptag.cmd.player = aiptag.cmd.player || [];
-
-            //CMP tool settings
-            aiptag.cmp = {
-                show: true,
-                position: "centered",
-                //centered or bottom
-                button: true,
-                buttonText: "Privacy settings",
-                buttonPosition: "bottom-left"//bottom-left, bottom-right, top-left, top-right
-            }
-        </script>
-        <script async src="https://api.adinplay.com/libs/aiptag/pub/BLC/blockcraft.online/tag.min.js"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ760XE436"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-
-            gtag('config', 'G-HJ760XE436');
-        </script>
-        <link rel="shortcut icon" href="https://wabawaba.org/assets/favicon.ico">
-        <link rel="icon" type="image/png" sizes="16x16" href="https://wabawaba.org/assets/favicon-16x16.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="https://wabawaba.org/assets/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="48x48" href="https://wabawaba.org/assets/favicon-48x48.png">
+        <link rel="shortcut icon" href="https://blockcraft.online/assets/favicon.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://blockcraft.online/assets/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://blockcraft.online/assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="https://blockcraft.online/assets/favicon-48x48.png">
         <link rel="manifest" href="assets/manifest.json">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="theme-color" content="#fff">
         <meta name="application-name">
-        <link rel="apple-touch-icon" sizes="57x57" href="https://wabawaba.org/assets/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="https://wabawaba.org/assets/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="https://wabawaba.org/assets/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="https://wabawaba.org/assets/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="https://wabawaba.org/assets/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="https://wabawaba.org/assets/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="https://wabawaba.org/assets/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="https://wabawaba.org/assets/apple-touch-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="167x167" href="https://wabawaba.org/assets/apple-touch-icon-167x167.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="https://wabawaba.org/assets/apple-touch-icon-180x180.png">
-        <link rel="apple-touch-icon" sizes="1024x1024" href="https://wabawaba.org/assets/apple-touch-icon-1024x1024.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="https://blockcraft.online/assets/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://blockcraft.online/assets/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://blockcraft.online/assets/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://blockcraft.online/assets/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://blockcraft.online/assets/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://blockcraft.online/assets/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://blockcraft.online/assets/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://blockcraft.online/assets/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="https://blockcraft.online/assets/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://blockcraft.online/assets/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="https://blockcraft.online/assets/apple-touch-icon-1024x1024.png">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <meta name="apple-mobile-web-app-title">
@@ -88,92 +59,22 @@
         <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="assets/apple-touch-startup-image-2388x1668.png">
         <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="assets/apple-touch-startup-image-2732x2048.png">
         <link rel="apple-touch-startup-image" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="assets/apple-touch-startup-image-2160x1620.png">
-        <link rel="icon" type="image/png" sizes="228x228" href="https://wabawaba.org/assets/coast-228x228.png">
+        <link rel="icon" type="image/png" sizes="228x228" href="https://blockcraft.online/assets/coast-228x228.png">
         <meta name="msapplication-TileColor" content="#fff">
         <meta name="msapplication-TileImage" content="assets/mstile-144x144.png">
         <meta name="msapplication-config" content="assets/browserconfig.xml">
         <link rel="yandex-tableau-widget" href="assets/yandex-browser-manifest.json">
-        <script defer="defer" src="https://wabawaba.org/main.aacaadf6cdbc46809f35.js"></script>
-        <link href="https://wabawaba.org/main.2e5670b7cf09ca4ae393.css" rel="stylesheet">
-    </head>
-    <body>
-        <div id="preroll"></div>
-        <script>
-            // video-ad-skipped
-            window.aiptag.cmd.player.push(function() {
-                window.aiptag.adplayer = new aipPlayer({
-                    AD_WIDTH: 960,
-                    AD_HEIGHT: 540,
-                    AD_FULLSCREEN: true,
-                    AD_CENTERPLAYER: false,
-                    LOADING_TEXT: 'loading advertisement',
-                    PREROLL_ELEM: function() {
-                        return document.getElementById('preroll')
-                    },
-                    AIP_COMPLETE: function(evt) {
-                        /*******************
-           ***** WARNING *****
-           *******************
-           Please do not remove the PREROLL_ELEM
-           from the page, it will be hidden automaticly.
-           If you do want to remove it use the AIP_REMOVE callback. I'm gay. jkjk
-          */
-                        console.error("Preroll Ad Completed: " + evt);
-                    },
-                    AIP_REMOVE: function() {}
-                });
-            });
-        </script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3693486377553906" crossorigin="anonymous"></script>
-        <div id="loading-screen">
+        <script defer="defer" src="https://blockcraft.online/main.851a4ddec6273c7a2dd0.js"></script>
+        <link href="https://blockcraft.online/main.47a776fab08f6bdaa593.css" rel="stylesheet">
+        <div id="loading-screen" style="position: absolute; width: 100%; height: 100%; z-index: 5; transition: opacity 1500ms ease; pointer-events: none">
             <div class="background-image" style="image-rendering: pixelated"></div>
-            <div id="loading-screen-container">
-                <div id="loading-screen-text">Wabacraft</div>
-                <div id="progress-bar">
-                    <div id="progress-bar-inner"></div>
-                </div>
-                <div id="progress-text">Initializing game...</div>
-            </div>
+            <div id="loading-screen-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2.2em">Loading BlockCraft...</div>
         </div>
         <div id="react" style="position: absolute; width: 100%; height: 100%; z-index: 4"></div>
         <canvas id="canvas-hud"></canvas>
-        <div id="canvas-holder"></div>
-        <div id="canvas-overlay"></div>
-        <div id="account-overlay"></div>
-        <div id="dat-gui"></div>
-        <input spellcheck="false" autocomplete="off" id="chat-input" class="game-input" placeholder="> Press Enter to Chat or / for Commands" maxlength="100" style="display: none; z-index: 3"/>
+        <canvas id="hud-canvas"></canvas>
+        <input spellcheck="false" autocomplete="off" id="chat-input" class="game-input" placeholder="> Press Enter to Chat" maxlength="100" style="display: none; z-index: 3"/>
         <input spellcheck="false" autocomplete="off" id="search-input" class="game-input" placeholder="Search Items" maxlength="100" style="display: none; z-index: 5"/>
-        <script>
-            (function() {
-                id = 'auSaPZArGmi6-evKJjs3E8LSG';
-                function l(u) {
-                    var e = document.createElement('script');
-                    e.type = 'text/javascript';
-                    e.src = 'https://www.adblockanalytics.com/' + u;
-                    e.async = 0;
-                    var x = document.getElementsByTagName('script')[0];
-                    x.parentNode.insertBefore(e, x);
-                }
-                l('gafc.js');
-                l('analyze.js');
-            }
-            )();
-        </script>
-        <script>
-            (function() {
-                id = 'auSaPZArGmi6-wT15ShvIDuEA';
-                function l(u) {
-                    var e = document.createElement('script');
-                    e.type = 'text/javascript';
-                    e.src = 'https://www.adblockanalytics.com/' + u;
-                    e.async = 0;
-                    var x = document.getElementsByTagName('script')[0];
-                    x.parentNode.insertBefore(e, x);
-                }
-                l('gafc.js');
-                l('analyze.js');
-            }
-            )();
-        </script>
+        <div id="canvas-holder"></div>
     </body>
 </html>
